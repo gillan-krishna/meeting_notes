@@ -9,7 +9,6 @@ def Summarize(path):
     # print(response)
 
 if __name__ == '__main__':
-    # openai.api_key = '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'
     openai.api_key = 'Enter your API key here'
     path = 'transcript.txt'
     summary = Summarize(path)
